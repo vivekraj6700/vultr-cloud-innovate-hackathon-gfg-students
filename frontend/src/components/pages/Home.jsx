@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../layout/Layout';
+import AboutPage from './About/AboutPage';
 
 const Home = () => {
     return (
@@ -21,6 +22,10 @@ const Home = () => {
                     </div>
                 </section>
                 {/* About Us Section */}
+                <section>
+                    <AboutPage />
+                </section>
+
                 <section className="about-us">
                     <h2>About Us</h2>
                     <p>Maharatna is an organisation that believes every disease can be cured by Ayurveda. What actually is required is your patience, consistency, and belief. As the name "MAHARATNA" stands for precious, similarly our patients are precious.</p>
