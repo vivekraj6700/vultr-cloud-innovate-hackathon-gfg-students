@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../layout/Layout';
 import AboutPage from './About/AboutPage';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -21,6 +22,58 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                {/* Classes Start */}
+                <div className="container-xxl py-5">
+                    <div className="container">
+                        {/*  <div className="text-center mx-auto mb-5 wow fadeInUp " data-wow-delay="0.1s" style={{ maxWidth: 600 }}>
+                            <h1 className="mb-3">Extracurricular Activities Classes</h1>
+                            <p>They contribute to boosting one’s self-confidence and overall personal development. It is not necessary that it only includes your hobbies.</p>
+                            <Link to={"/exteacurricular"}><button className="btn  w-20 py-2 " id="btn">Read More</button></Link>
+                        </div> */}
+                        <div className="row g-4">
+                            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div className="classes-item">
+                                    <div className="bg-lights rounded-circle w-75 mx-auto p-3">
+                                        <img className="img-fluid rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSmVajzNN8-1Ln340OWRc8bdKT4561jkFlWQ&s" alt='img' />
+                                    </div>
+                                    <div className="bg-lights rounded p-1  mt-n5">
+                                        <a className="d-block text-center h3 mt-1 mb-1" href>Yoga</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div className="classes-item">
+                                    <div className="bg-lights rounded-circle w-75 mx-auto p-3">
+                                        <img className="img-fluid rounded-circle" src="https://thumbs.dreamstime.com/b/wedelia-chinensis-well-known-herbal-medicine-ayurveda-siddha-unani-systems-296256354.jpg" alt='img' />
+                                    </div>
+                                    <div className="bg-lights rounded p-1  mt-n5">
+                                        <a className="d-block text-center h3 mt-1 mb-1" href>Unani</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div className="classes-item">
+                                    <div className="bg-lights rounded-circle w-75 mx-auto p-3">
+                                        <img className="img-fluid rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStRosEWePNQJLUsUo8JkU0z-mia3S4DcqZqg&s" alt='img' />
+                                    </div>
+                                    <div className="bg-lights rounded p-1  mt-n5">
+                                        <a className="d-block text-center h3 mt-1 mb-1" href>Ayurvedic</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                {/* Classes End */}
+
+
+
                 {/* About Us Section */}
                 <section>
                     <AboutPage />
