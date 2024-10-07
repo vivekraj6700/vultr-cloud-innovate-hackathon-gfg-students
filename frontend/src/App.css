@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
 
 body {
-  background-color: #fff;
+  background-color: #ffff;
   margin-top: 100px;
   padding: 0;
 }
@@ -217,6 +217,27 @@ section.content {
   font-size: 1.1rem;
   color: #333;
 }
+
+@media only screen and (max-width: 600px) {
+  ._topMain {
+    padding: 0px 10px;
+  }
+  .home_tittle {
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+  }
+  ._tophome {
+    display: inline;
+  }
+  ._tophome img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
 /*------------------------------end Home Section=========*/
 
 /*=======================footer==============*/

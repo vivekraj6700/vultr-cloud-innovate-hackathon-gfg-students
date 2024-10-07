@@ -13,7 +13,7 @@ const Home = () => {
                                 <div className='bg_blur'>44</div>
                                 <p>Welcom to <br /><span style={{ marginLeft: "30px" }}>GreenVerga</span></p>
                                 <hr className='custom_line' />
-                                <h1>"स्वस्थस्य स्वास्थ्य रक्षणं, आतुरस्य विकार प्रथमर्न चा"
+                                <h1 className='home_tittle'>"स्वस्थस्य स्वास्थ्य रक्षणं, आतुरस्य विकार प्रथमर्न चा"
                                     <br></br>
                                     (Svasthasya svasthya rakshanam, aturasya vikar prashamanam cha)</h1>
                             </div>
