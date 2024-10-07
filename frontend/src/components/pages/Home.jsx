@@ -5,14 +5,42 @@ const Home = () => {
     return (
         <>
             <Layout title={"Home"}>
-                <section className="sec1" />
                 <section className="content">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit aliquam etiam erat velit scelerisque in dictum. Vestibulum sed arcu non odio euismod lacinia. Aliquet bibendum enim facilisis gravida neque. Id leo in vitae turpis massa sed elementum tempus egestas. Vivamus arcu felis bibendum ut tristique et. Lectus sit amet est placerat. Viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Commodo quis imperdiet massa tincidunt. Arcu dictum varius duis at consectetur lorem donec massa sapien. Imperdiet sed euismod nisi porta lorem mollis aliquam. Habitant morbi tristique senectus et netus et malesuada fames ac.<br />
-                        Morbi leo urna molestie at elementum. Nisl purus in mollis nunc sed id semper risus in. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Pharetra sit amet aliquam id diam maecenas. Felis donec et odio pellentesque diam volutpat. Non arcu risus quis varius quam quisque id. Sit amet facilisis magna etiam tempor orci eu. Placerat in egestas erat imperdiet sed euismod nisi porta. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Aenean pharetra magna ac placerat. Auctor elit sed vulputate mi sit amet mauris commodo quis. Laoreet sit amet cursus sit amet. Risus nullam eget felis eget nunc lobortis. Curabitur vitae nunc sed velit dignissim sodales ut eu sem.<br />
-                        Blandit cursus risus at ultrices mi tempus. Auctor urna nunc id cursus metus aliquam eleifend mi in. Ut lectus arcu bibendum at varius vel pharetra vel turpis. At ultrices mi tempus imperdiet nulla malesuada. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Faucibus vitae aliquet nec ullamcorper sit. Blandit massa enim nec dui nunc mattis. Ultricies tristique nulla aliquet enim tortor at. Ac tortor dignissim convallis aenean et tortor. Fusce ut placerat orci nulla pellentesque dignissim. Gravida quis blandit turpis cursus in hac habitasse platea. In massa tempor nec feugiat nisl. Sit amet consectetur adipiscing elit ut aliquam purus sit. Egestas maecenas pharetra convallis posuere morbi leo urna. Amet tellus cras adipiscing enim.
-                    </p>
+                    <div className='_topMain'>
+                        <div className='_tophome'>
+                            <img src='/images/leaf1.png' />
+                            <div className='_topHomeText '>
+                                <div className='bg_blur'>44</div>
+                                <p>Welcom to <br /><span style={{ marginLeft: "30px" }}>GreenVerga</span></p>
+                                <hr className='custom_line' />
+                                <h1>"स्वस्थस्य स्वास्थ्य रक्षणं, आतुरस्य विकार प्रथमर्न चा"
+                                    <br></br>
+                                    (Svasthasya svasthya rakshanam, aturasya vikar prashamanam cha)</h1>
+                            </div>
+                        </div>
+                    </div>
                 </section>
+                {/* About Us Section */}
+                <section className="about-us">
+                    <h2>About Us</h2>
+                    <p>Maharatna is an organisation that believes every disease can be cured by Ayurveda. What actually is required is your patience, consistency, and belief. As the name "MAHARATNA" stands for precious, similarly our patients are precious.</p>
+                </section>
+                {/* Motive Section */}
+                <section className="motive">
+                    <h2>Motive</h2>
+                    <p>The motive of our company is to provide pure Ayurvedic components and herbs (jadibutis) in medication and bring 100% satisfaction and safety to the people. We work with the objective to cure diseases naturally by providing Ayurvedic herbs as ingredients, making use of natural components without any addition of artificial products and harmful substances.</p>
+                </section>
+                {/* Vision Section */}
+                <section className="vision">
+                    <h2>Vision</h2>
+                    <p>Global well-being is one of the long-term visions of our company. Maharanta Ayurved wants to make a huge contribution to global health with our company’s natural and herbal products. We continue the innovation and development of Ayurvedic products to address modern health challenges.</p>
+                </section>
+                {/* Products Section */}
+                <section className="products">
+                    <h2>Products</h2>
+                    {/* Add product details here */}
+                </section>
+
             </Layout>
         </>
     );
