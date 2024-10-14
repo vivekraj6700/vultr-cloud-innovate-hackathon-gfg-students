@@ -38,7 +38,7 @@ const Header = () => {
 
                         </ul>
                         <div className="  d-flex  sim" style={{ color: "#fff" }}>
-                            <span >Login</span>
+                            <span ><Link to="/login">Login</Link></span>
                         </div>
                     </div>
                 </div>
