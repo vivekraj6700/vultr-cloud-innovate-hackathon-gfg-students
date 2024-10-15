@@ -1,9 +1,11 @@
 import React from 'react';
 import Layout from '../../layout/Layout';
 import '../Blog/Blog.css'
-import Header from '../../layout/Header';
-import Footer from '../../layout/Footer';
 import { Link } from 'react-router-dom';
+import { SlLike } from "react-icons/sl";
+import { FaRegComment } from "react-icons/fa";
+import { PiDotsThreeVerticalBold } from "react-icons/pi";
+
 
 const Blog = () => {
     return (
@@ -15,12 +17,30 @@ const Blog = () => {
                             <li><Link to={"/tulsi"}>Tulsi</Link></li>
                             <li><Link to={"/neem"}>Neem</Link></li>
                             <li><Link to={"/paan"}>Paan</Link></li>
-                            <li><Link to={"/tulsi"}>Neem Oil</Link></li>
-                            <li><Link to={"/tulsi"}>Pumpkin Oil</Link></li>
+                            <li><Link to={"/tulsi"}>NeemOil</Link></li>
+                            <li><Link to={"/tulsi"}>PumpkinOil</Link></li>
                             <li><Link to={"/tulsi"}>Jeera</Link></li>
                             <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
+                            <li><Link to={"/tulsi"}>Milk</Link></li>
 
-                        </ul>
+                        </ul>                        
                     </header>
                     <div className=" Blog_sidebar Blog_left-sidebar">
                         <nav className="Blog_side-nav">
@@ -64,6 +84,15 @@ const Blog = () => {
                     <div className="Blog_content_main">
                         <div className="Blog_content">
                             <h2>Main Content</h2>
+                            <div id='post-details'>
+                                <p>Latest Updates: {new Date().toLocaleString()+""}</p>
+                                <div id='like-comment'>
+                                <div id='like'><SlLike /></div>
+                                <div id='comment'><FaRegComment /></div>
+                                <div id='share'><PiDotsThreeVerticalBold /></div>
+                                
+                            </div>
+                        </div>
                             <p>main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : </p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio praesentium eveniet delectus doloribus esse excepturi in doloremque? Inventore magni sed tempora, eaque molestias iure unde delectus ipsum suscipit quo sunt consequatur molestiae dolorem officia ullam quas soluta nulla totam cum. Consequuntur magni cumque necessitatibus incidunt earum modi repellendus nam dolor laboriosam assumenda atque maiores mollitia, corrupti sint totam dolorem ipsa quidem? Voluptates tempora facilis recusandae vel quidem rem pariatur ea nihil asperiores alias rerum vitae explicabo similique, eveniet quisquam, veritatis iusto, minima nostrum. Ex, vel, recusandae suscipit perspiciatis porro illum aspernatur quae quam alias autem corrupti distinctio provident? Aut, consequuntur culpa rerum quis distinctio architecto enim. Repudiandae excepturi maiores nihil, doloremque ullam eos labore sit distinctio recusandae culpa commodi ipsum dolorem iste deserunt nesciunt temporibus consequatur aut. Nemo repellendus exercitationem voluptates accusamus praesentium! Dolorum doloribus expedita adipisci illum repellendus placeat in aspernatur perferendis veniam praesentium ab tempore eveniet quam, a distinctio assumenda qui enim cum dicta voluptatibus obcaecati delectus aliquid. Tempora quidem perferendis iure, est aspernatur deserunt odit voluptas. Sint facilis dolore saepe quas dolorum hic optio error beatae. Iste, excepturi placeat autem blanditiis maiores quos obcaecati quibusdam. Mollitia vel omnis dolor necessitatibus molestias cumque pariatur deleniti rerum. Accusamus quaerat quos necessitatibus reiciendis doloribus! Quo hic reprehenderit, modi, tempore impedit in itaque odit, voluptatem ducimus animi vitae? Ad ipsum nobis quod praesentium suscipit, iusto eveniet, id beatae doloremque, numquam impedit explicabo sapiente. Repellat mollitia obcaecati facere suscipit ipsa, corrupti deleniti veniam ex tenetur voluptatum natus atque quis itaque iusto velit praesentium, nemo, debitis voluptates consequuntur corporis expedita necessitatibus fugiat. Iusto, id sequi saepe quam aut ratione qui repudiandae harum reprehenderit magni praesentium ut earum autem recusandae illo sapiente! Dolorum molestiae suscipit nobis ullam quod. Culpa, fugit! Odio sequi aperiam nostrum, eum quas temporibus quasi rem hic officia excepturi tempore, quos culpa itaque asperiores ab corporis blanditiis? Quo, asperiores iusto reiciendis reprehenderit pariatur commodi nemo eaque deleniti nulla aliquam consequuntur recusandae non aperiam accusantium temporibus dolore cum velit explicabo nam. Iure ipsam maiores vero magnam qui modi commodi consectetur et iusto. Incidunt perferendis magnam repellat. Dicta aspernatur voluptate fugit dignissimos nobis autem, odit, itaque minima expedita unde sequi totam doloribus nihil iure quidem nulla dolorum inventore dolor, atque quibusdam fuga. Illo sint rerum perspiciatis magnam, labore facilis delectus quae in sit consequatur iste quibusdam incidunt nostrum, aliquam dolorum voluptas mollitia quo. Quas laudantium laborum unde eveniet magni in saepe? Ad iusto ut quae modi ea necessitatibus corrupti eveniet, earum eius laborum quidem magnam nam quis nemo sunt eos. Adipisci in numquam ratione nam alias quasi, error vel enim praesentium sit quos eos rerum cupiditate obcaecati quam id assumenda iste aspernatur nesciunt commodi sed. Nulla, eaque ipsum quibusdam inventore error nobis voluptatibus ad voluptates sapiente iste quos dolor facere itaque natus repellat enim nam aperiam tenetur, cupiditate libero fuga nemo consequatur nisi asperiores. Enim aut voluptate nostrum. Eveniet eius aperiam, laborum, sit laudantium natus saepe quis sed similique praesentium officia itaque? Fugiat quae et libero incidunt mollitia debitis voluptatem dolorem animi exercitationem! </p>
                             <p>main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : main content goes here : </p>

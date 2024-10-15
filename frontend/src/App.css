@@ -112,6 +112,10 @@ a:focus {
   background-color: transparent;
   border: none;
 }
+.navbar-brand img{
+  height: 4rem;
+  margin: -10px 0;
+}
 
 .nav-link {
   color: black !important;
