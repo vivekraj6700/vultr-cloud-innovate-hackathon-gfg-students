@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { BsLinkedin, BsGithub, BsYoutube, BsInstagram } from "react-icons/bs";
+import { SiMinutemailer } from "react-icons/si";
 
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
                     <div className="row align-items-center">
                         <div className="col-5">
                             <div className="footer-top-data d-flex gap-30 align-items-center">
-                                <img src={"/images/newsletter.png"} alt="newsletter" />
+                            <SiMinutemailer size={40} style={{ color:'white', marginRight:'8px'}}/>
                                 <h2 className="mb-0 text-white">Sign Up for Newsletter</h2>
                             </div>
                         </div>

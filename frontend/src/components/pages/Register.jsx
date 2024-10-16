@@ -7,6 +7,7 @@ const Register = () => {
             <div className="form_wrapper">
                 <div className="form_container">
                     <div className="title_container">
+                        <h2 style={{color: 'orange'}}>Welcome to <span style={{color:'#285b23'}}>Green</span>Verge</h2>
                         <h2>Registration</h2>
                     </div>
                     <div className="row clearfix">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 const Header = () => {
     return (
@@ -12,7 +13,8 @@ const Header = () => {
                 <div className="wrapper">
                 </div>
                 <div className="container-fluid all-show">
-                    <Link className="navbar-brand" to="/" style={{ color: "#006600" }}>GreenVerge <i className="fa fa-codepen" /></Link>
+                    <Link className="navbar-brand" to="/" style={{ color: "#006600" }}>
+                        <img src='/images/logo-transparent-png.png' /><i className="fa fa-codepen" /></Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -37,9 +39,23 @@ const Header = () => {
                             </li>
 
                         </ul>
+                        <Dropdown>
                         <div className="  d-flex  sim" style={{ color: "#fff" }}>
-                            <span ><Link to="/login">Login</Link></span>
+                            
+                            <Dropdown.Toggle variant="success" id="dropdown-basic">
+
+                            <span><Link to={'/login'}>Login</Link></span>
+                                </Dropdown.Toggle>
+                                <Dropdown.Menu>
+                                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                                <Dropdown.Item href="#/action-2"><Link to={'/userDashboard'}>Dashboard</Link></Dropdown.Item>
+                                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                            </Dropdown.Menu>
                         </div>
+
+
+
+                        </Dropdown>
                     </div>
                 </div>
             </nav>

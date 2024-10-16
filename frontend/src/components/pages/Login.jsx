@@ -22,7 +22,7 @@ const Login = () => {
                                 </div>
                                 <div className='forget_password'>
                                     <p><Link to={"/register"}>Register</Link></p>
-                                    <p><Link>Forget Password</Link></p>
+                                    <p><Link to={"/forget"}>Forget Password</Link></p>
                                 </div>
 
                                 <input className="button" type="submit" defaultValue="Register" />

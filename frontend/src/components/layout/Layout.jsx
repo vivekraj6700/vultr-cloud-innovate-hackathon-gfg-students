@@ -28,7 +28,7 @@ Layout.defaultProps = {
     title: 'GreenVerge.com ',
     description: "Online delivery",
     keywords: "youga,Ayurveduc,Unani",
-    author: "Sumit Singh,Rishav Singh,Vivek RAj"
+    author: "Sumit Singh,Rishav Singh,Vivek Raj"
 }
 
 export default Layout;
