@@ -1,1 +1,2 @@
-Hello and welcome to the details of the project vultr cloud innovate hackathon;
+Hello and Welcome to GreenVerge – your trusted partner in holistic wellness through nature's wisdom. At GreenVerge, we specialize in eco-friendly products rooted in the timeless principles of Ayurvedic medicinal practices. Our offerings are crafted to bring balance, health, and vitality to your life, harnessing the healing power of natural ingredients. Whether you're seeking remedies for a specific ailment or simply wish to adopt a more natural, sustainable lifestyle, GreenVerge offers trusted solutions inspired by Ayurveda. Join us on the journey to well-being, and experience the harmony of mind, body, and nature.
+
